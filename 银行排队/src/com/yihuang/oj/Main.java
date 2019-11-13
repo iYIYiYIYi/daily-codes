@@ -1,5 +1,5 @@
 package com.yihuang.oj;
-
+//这个代码还有些bug
 import java.util.Scanner;
         import java.util.Vector;
 
