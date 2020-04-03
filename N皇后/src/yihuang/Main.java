@@ -11,7 +11,7 @@ public class Main {
         Scanner input = new Scanner(System.in);
         int n = input.nextInt();
         NQueen1 nq = new NQueen1(n);
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < nq.resultList.size(); i++) {
             for (int j = 0; j < nq.resultList.get(i).size(); j++) {
                 System.out.print(nq.resultList.get(i).get(j)+1+" ");
             }System.out.println();
